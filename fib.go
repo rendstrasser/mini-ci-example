@@ -10,6 +10,7 @@ func Fibonacci(n uint) uint64 {
 		return uint64(n)
 	}
 
+	var x = 0
 	var n2, n1 uint64 = 0, 1
 
 	for i := uint(2); i < n; i++ {
